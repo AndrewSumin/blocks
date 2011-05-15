@@ -1,0 +1,65 @@
+.progress{
+    overflow:hidden;
+    position:relative;
+    background-color: #fff;
+
+    -o-border-radius:10px;
+    -webkit-border-radius:10px;
+    -moz-border-radius:10px;
+    border-radius:10px;
+}
+    .progress__status{
+        height:13px;
+        overflow:hidden;
+        background-color:#69B800;
+        
+        -o-box-shadow:0 0 3px #999;
+        -webkit-box-shadow:0 0 3px #999;
+        -moz-box-shadow:0 0 3px #999;
+        box-shadow:0 0 3px #999;
+    }
+.progress{
+    filter:progid:DXImageTransform.Microsoft.Gradient(StartColorStr='#dddddd',EndColorStr='#ffffff');
+
+    background-image: -o-linear-gradient(rgba(50, 50, 50, .3), rgba(50, 50, 50, 0) 4px, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0) 100%),
+                      -o-repeating-linear-gradient(-45deg, #FFF, #FFF 5px, #F0FDEB 5px, #F0FDEB 10px);
+                      
+    background-image: -ms-linear-gradient(rgba(50, 50, 50, .3), rgba(50, 50, 50, 0) 4px, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0) 100%),
+                      -ms-repeating-linear-gradient(-45deg, #FFF, #FFF 5px, #F0FDEB 5px, #F0FDEB 10px);
+    
+    background-image: -webkit-linear-gradient(rgba(50, 50, 50, .3), rgba(50, 50, 50, 0) 4px, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0) 100%),
+                      -webkit-repeating-linear-gradient(-45deg, #FFF, #FFF 5px, #F0FDEB 5px, #F0FDEB 10px);
+    
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(rgba(50, 50, 50, .3)), color-stop(0.2, rgba(50, 50, 50, 0)), color-stop(0.55, rgba(255, 255, 255, 0)), to(rgba(255, 255, 255, 0)));
+
+    background-image: -moz-linear-gradient(rgba(50, 50, 50, .3), rgba(50, 50, 50, 0) 4px, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0) 100%),
+                      -moz-repeating-linear-gradient(-45deg, #FFF, #FFF 5px, #F0FDEB 5px, #F0FDEB 10px);
+                      
+    background-image: linear-gradient(rgba(50, 50, 50, .3), rgba(50, 50, 50, 0) 4px, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0) 100%),
+                      repeating-linear-gradient(-45deg, #FFF, #FFF 5px, #F0FDEB 5px, #F0FDEB 10px);
+}
+    .progress__status{
+        filter:progid:DXImageTransform.Microsoft.Gradient(StartColorStr='#9BCE5C',EndColorStr='#69B800');
+        
+        background-image: -o-linear-gradient(right, rgba(255, 255, 255, .3), rgba(255, 255, 255, 0) 10px, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0) 100%),
+                          -o-linear-gradient(rgba(255, 255, 255, .5), rgba(255,255,255,.5) 30%, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0) 100%),
+                          -o-repeating-linear-gradient(-45deg, #69B800, #69B800 5px, #8BC838 5px, #8BC838 10px);
+        
+        background-image: -ms-linear-gradient(right, rgba(255, 255, 255, .3), rgba(255, 255, 255, 0) 10px, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0) 100%),
+                          -ms-linear-gradient(rgba(255, 255, 255, .5), rgba(255,255,255,.5) 30%, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0) 100%),
+                          -ms-repeating-linear-gradient(-45deg, #69B800, #69B800 5px, #8BC838 5px, #8BC838 10px);
+        
+        background-image: -webkit-linear-gradient(right, rgba(255, 255, 255, .3), rgba(255, 255, 255, 0) 10px, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0) 100%),
+                          -webkit-linear-gradient(rgba(255, 255, 255, .5), rgba(255,255,255,.5) 30%, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0) 100%),
+                          -webkit-repeating-linear-gradient(-45deg, #69B800, #69B800 5px, #8BC838 5px, #8BC838 10px);
+        
+        background-image: -webkit-gradient(linear, 0 0, 0 100%, from(rgba(255, 255, 255, .3)), color-stop(0.4, rgba(255, 255, 255, 0)), color-stop(0.8, rgba(255, 255, 255, 0)), to(rgba(255, 255, 255, 0)));
+        
+        background-image: -moz-linear-gradient(right, rgba(255, 255, 255, .3), rgba(255, 255, 255, 0) 10px, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0) 100%),
+                          -moz-linear-gradient(rgba(255, 255, 255, .5), rgba(255,255,255,.5) 30%, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0) 100%),
+                          -moz-repeating-linear-gradient(-45deg, #69B800, #69B800 5px, #8BC838 5px, #8BC838 10px);
+        
+        background-image: linear-gradient(right, rgba(255, 255, 255, .3), rgba(255, 255, 255, 0) 10px, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0) 100%),
+                          linear-gradient(rgba(255, 255, 255, .5), rgba(255,255,255,.5) 30%, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0) 100%),
+                          repeating-linear-gradient(-45deg, #69B800, #69B800 5px, #8BC838 5px, #8BC838 10px);
+    }
